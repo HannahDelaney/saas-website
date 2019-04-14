@@ -1,0 +1,29 @@
+html {
+  background-color: #ffea00;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+h1 {
+  font-family: Merriweather, serif;
+  color: #2a7789;
+}
+
+.banner-img img {
+  width: 100%;
+}
+
+.banner-words {
+  background-color: #2a7789;
+}
+
+.banner-words p {
+  font-family: Lato, sans-serif;
+  color: #fff;
+}
+
+.sign-up {
+  background-color: #fff;
+}
