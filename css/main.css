@@ -13,7 +13,17 @@ nav a {
   color: #000;
 }
 
+footer a {
+  font-family: Merriweather, serif;
+  text-decoration: none;
+  color: #000;
+}
+
 nav a:hover {
+  color: #2a7789;
+}
+
+footer a:hover {
   color: #2a7789;
 }
 
@@ -97,4 +107,16 @@ input[type="checkbox"] + label::before,
 input[type="radio"] + label::before {
   border-color: #2a7789;
   border-radius: 15px;
+}
+
+.sign-up .btn {
+  color: #000;
+}
+
+.sign-up .btn:hover {
+  color: #fff;
+}
+
+footer .btn {
+  border: none;
 }

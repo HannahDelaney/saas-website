@@ -18,7 +18,7 @@
       <div class="unit xs-1 m-1-3">
         <a href="index.html"><img class="logo push-1-2 pad-t" src="images/research-logo.png" alt=""></a>
       </div>
-      <nav class="unit mega xs-1 m-2-3 pad-t text-right ">
+      <nav class="unit mega xs-1 m-2-3 pad-t text-right">
         <ul class="push list-group-inline">
           <li class="solutions gutter-1-2"><a href="solutions.html">Solutions</a></li>
           <li class="prices gutter-1-2"><a href="prices.html">Prices</a></li>
@@ -38,11 +38,14 @@
         </div>
       </section>
       <section class="banner-words unit xs-1">
-        <p class="text-center pad-t">At re.SEARCH we know you are busy, and have to focus on your message reaching the right people.<br>Why not let us help?</p>
-        <div class="center-text push pad-t">
-          <button class="btn mega gutter-2 pad-t-1-2 pad-b-1-2 bold">Try it Free</button>
+        <div>
+          <p class="text-center pad-t-2 push-1-2">At re.SEARCH we know you are busy, and have to focus on your message reaching the right people.</p>
+          <p class="text-center pad-b-2">Why not let us help?</p>
+          <div class="center-text push-1-2">
+            <button class="btn mega gutter-2 pad-t-1-2 pad-b-1-2 bold">Try it Free</button>
+          </div>
+          <p class="text-center pad-b-2">No credit card required.</p>
         </div>
-        <p class="text-center pad-b">No credit card required.</p>
       </section>
     </section>
   </div>
@@ -88,19 +91,11 @@
             <input id="username" required>
           </div>
           <div class="push gutter-1-2">
-            <label for="company">Name</label>
-            <input id="company" required>
-          </div>
-          <div class="push gutter-1-2">
-            <label for="company-details">Tell us about your company.</label>
-            <textarea id="company-details" required></textarea>
-          </div>
-          <div class="push gutter-1-2">
             <label for="email">Email</label>
             <input id="email" type="email" name="email" required>
           </div>
           <fieldset class="push gutter-1-2">
-            <legend class="push-1-2">Would you like to be signed up for our bi-monthly email newsletter?</legend>
+            <legend class="push-1-2 not-bold">Would you like to be signed up for our bi-monthly email newsletter?</legend>
             <input type="radio" id="newsletter-yes" name="newsletter">
             <label class="push-r" for="newsletter-yes">Yes</label>
             <input type="radio" id="newsletter-no" name="newsletter">
@@ -113,6 +108,14 @@
           <div class="push gutter-1-2">
             <label for="confirm-password">Confirm Password</label>
             <input id="confirm-password" required>
+          </div>
+          <div class="push gutter-1-2">
+            <label for="company">Company Name</label>
+            <input id="company" required>
+          </div>
+          <div class="push gutter-1-2">
+            <label for="company-details">Tell us about your company.</label>
+            <textarea id="company-details" required></textarea>
           </div>
           <div class="push gutter-1-2">
             <label for="packages">Which package are you interested in?</label>
@@ -132,15 +135,23 @@
               <option>3. We let them tell you what they need.</option>
             </select>
           </div>
-          <div>
-            <button class="btn push-2" type="submit">Start my Free Trial</button>
+          <div class="text-center">
+            <button class="btn mega push-2" type="submit">Start my Free Trial</button>
           </div>
         </form>
       </div>
     </section>
   </main>
   <footer>
-    <p>footer content</p>
+    <p class="text-center pad-t-2">See why we are trusted over competitors.</p>
+    <div class="center-text push-1-2">
+      <button class="btn gutter-2 pad-t-1-2 pad-b-1-2 bold">Learn More</button>
+    </div>
+    <ul class="push list-group-inline text-center pad-t-2">
+      <li class="solutions gutter-1-2"><a href="solutions.html">Solutions</a></li>
+      <li class="prices gutter-1-2"><a href="prices.html">Prices</a></li>
+      <li class="register gutter-1-2"><a href="register.html">Try it Free</a></li>
+    </ul>
   </footer>
 </body>
 </html>
