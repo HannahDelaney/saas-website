@@ -14,59 +14,133 @@
 </head>
 <body>
   <div>
-    <header class="grid grid-middle gutter-1-2">
-      <div class="unit xs-1 s-1 m-1-3 l-1-3">
-        <img class="logo push-1-2 pad-t-1-2" src="images/research-logo.png" alt="">
+    <header class="grid grid-middle gutter-1-2 wrapper">
+      <div class="unit xs-1 m-1-3">
+        <a href="index.html"><img class="logo push-1-2 pad-t" src="images/research-logo.png" alt=""></a>
       </div>
-      <nav class="unit mega xs-1 s-1 m-1-2 l-1-2">
-        <ul class="push-0 list-group-inline">
-          <li class=""><a href="#">Solutions</a></li>
-          <li class=""><a href="#">Prices</a></li>
-          <li class=""><a href="#">Try it Free</a></li>
+      <nav class="unit mega xs-1 m-2-3 pad-t text-right ">
+        <ul class="push list-group-inline">
+          <li class="solutions gutter-1-2"><a href="solutions.html">Solutions</a></li>
+          <li class="prices gutter-1-2"><a href="prices.html">Prices</a></li>
+          <li class="register gutter-1-2"><a href="register.html">Try it Free</a></li>
         </ul>
       </nav>
     </header>
-    <section class="banner-img">
-      <h1>Track your success. Build your campaign. Manage your advertising with ease.</h1>
-      <img src="images/banner-image-woman.jpeg" alt="">
-      <section class="banner-words">
-        <p class="text-center">At re.SEARCH we know you are busy, and have to focus on your message reaching the right people.<br>Why not let us help?</p>
+    <section class="banner pad-t">
+      <section class="banner-img grid wrapper">
+        <div class="unit xs-1 m-1-2 pad-t-2">
+          <h1 class="not-bold peta push-0">Track your success.</h1>
+          <h1 class="not-bold peta push-0">Build your campaign.</h1>
+          <h1 class="zetta">Manage your advertising with ease.</h1>
+        </div>
+        <div class="push-0 unit xs-1 m-1-2">
+          <img src="images/banner-image-woman.png" alt="">
+        </div>
+      </section>
+      <section class="banner-words unit xs-1">
+        <p class="text-center pad-t">At re.SEARCH we know you are busy, and have to focus on your message reaching the right people.<br>Why not let us help?</p>
         <div class="center-text push pad-t">
           <button class="btn mega gutter-2 pad-t-1-2 pad-b-1-2 bold">Try it Free</button>
         </div>
-        <p class="text-center">No credit card required.</p>
+        <p class="text-center pad-b">No credit card required.</p>
       </section>
     </section>
   </div>
   <section>
     <main>
       <div>
-        <h2 class="text-center">Here's what we offer:</h2>
-        <div class="text-center">
-          <img class="island" src="https://placehold.it/300x300">
-          <img class="island" src="https://placehold.it/300x300">
-          <img class="island" src="https://placehold.it/300x300">
+        <h2 class="pad-t-2">Here's what we offer:</h2>
+        <div class="text-center wrapper">
+          <img class="gutter-1-2 push" src="https://placehold.it/300x300">
+          <img class="gutter-1-2 push" src="https://placehold.it/300x300">
+          <img class="gutter-1-2 push" src="https://placehold.it/300x300">
         </div>
         <div class="center-text push pad-t">
-          <button class="btn mega gutter-2 pad-t-1-2 pad-b-1-2 bold">Learn More</button>
+          <button class="btn mega gutter-2 pad-t-1-2 pad-b-1-2 push-2 bold">Learn More</button>
         </div>
       </div>
       <div>
-        <h2 class="text-center">Satisfied Customers</h2>
-        <div class="text-center">
-          <img class="island" src="https://placehold.it/300x300">
-          <img class="island" src="https://placehold.it/300x300">
-          <img class="island" src="https://placehold.it/300x300">
+        <h2 class="pad-t-2">Satisfied Customers</h2>
+        <div class="text-center push-2 wrapper">
+          <img class="gutter-1-2 push" src="https://placehold.it/300x300">
+          <img class="gutter-1-2 push" src="https://placehold.it/300x300">
+          <img class="gutter-1-2 push" src="https://placehold.it/300x300">
         </div>
       </div>
     </section>
     <section class="sign-up">
-      <p>form</p>
-
+      <div class="wrapper grid">
+        <h2 class="pad-t-2 unit xs-1">What am I waiting for? I’m convinced!</h2>
+        <div class="unit xs-1 m-1-2 center-content-horizontal">
+          <img src="images/thumbs-up-homepage.png" alt="">
+        </div>
+        <form class="push-0 unit xs-1 m-1-2" method="POST" action="https://formspree.io/brow1234@algonquinlive.com">
+          <div class="push gutter-1-2">
+            <label for="first-name">First Name</label>
+            <input id="first-name" required>
+          </div>
+          <div class="push gutter-1-2">
+            <label for="last-name">Last Name</label>
+            <input id="last-name" required>
+          </div>
+          <div class="push gutter-1-2">
+            <label for="username">Username</label>
+            <input id="username" required>
+          </div>
+          <div class="push gutter-1-2">
+            <label for="company">Name</label>
+            <input id="company" required>
+          </div>
+          <div class="push gutter-1-2">
+            <label for="company-details">Tell us about your company.</label>
+            <textarea id="company-details" required></textarea>
+          </div>
+          <div class="push gutter-1-2">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" required>
+          </div>
+          <fieldset class="push gutter-1-2">
+            <legend class="push-1-2">Would you like to be signed up for our bi-monthly email newsletter?</legend>
+            <input type="radio" id="newsletter-yes" name="newsletter">
+            <label class="push-r" for="newsletter-yes">Yes</label>
+            <input type="radio" id="newsletter-no" name="newsletter">
+            <label for="newsletter-no">No</label>
+          </fieldset>
+          <div class="push gutter-1-2">
+            <label for="password">Password</label>
+            <input id="password" required>
+          </div>
+          <div class="push gutter-1-2">
+            <label for="confirm-password">Confirm Password</label>
+            <input id="confirm-password" required>
+          </div>
+          <div class="push gutter-1-2">
+            <label for="packages">Which package are you interested in?</label>
+            <select id="packages">
+              <option>Select One...</option>
+              <option>Basic, $89.99</option>
+              <option>Business, $189.99</option>
+              <option>Premium, $289.99</option>
+            </select>
+          </div>
+          <div class="push-2 gutter-1-2">
+            <label for="services">Which of our services are you most keen on?</label>
+            <select id="services">
+              <option>Select One...</option>
+              <option>1. We find you promising users.</option>
+              <option>2. We track how they engage with your campaign.</option>
+              <option>3. We let them tell you what they need.</option>
+            </select>
+          </div>
+          <div>
+            <button class="btn push-2" type="submit">Start my Free Trial</button>
+          </div>
+        </form>
+      </div>
     </section>
-    </main>
-    <footer>
-      <p>footer content</p>
-    </footer>
-  </body>
-  </html>
+  </main>
+  <footer>
+    <p>footer content</p>
+  </footer>
+</body>
+</html>

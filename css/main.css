@@ -1,14 +1,37 @@
 html {
   background-color: #ffea00;
+  font-family: Lato, sans-serif;
 }
 
 .logo {
   max-width: 200px;
 }
 
+nav a {
+  font-family: Merriweather, serif;
+  text-decoration: none;
+  color: #000;
+}
+
+nav a:hover {
+  color: #2a7789;
+}
+
+.register a {
+  border: solid #000 2px;
+  border-radius: 30px;
+  padding: .35em;
+}
+
+.register a:hover {
+  color: #2a7789;
+  border-color: #2a7789;
+}
+
 h1 {
   font-family: Merriweather, serif;
   color: #2a7789;
+  margin-left: .5em;
 }
 
 .banner-img img {
@@ -24,6 +47,54 @@ h1 {
   color: #fff;
 }
 
+.banner-words .btn {
+  background-color: #fff;
+  border: solid #ffea00 7px;
+  border-radius: 40px;
+  color: #2a7789;
+}
+
+.banner-words .btn:hover {
+  background-color: #2a7789;
+  color: #fff;
+  border-color: #ffea00;
+}
+
+h2 {
+  font-family: Merriweather, serif;
+  text-align: center;
+}
+
+.btn {
+  background-color: #fff;
+  border: solid #2a7789 7px;
+  border-radius: 40px;
+  color: #2a7789;
+}
+
+.btn:hover {
+  background-color: #2a7789;
+  color: #fff;
+  border-color: #2a7789;
+}
+
 .sign-up {
   background-color: #fff;
+}
+
+.sign-up img {
+  width: 100%;
+}
+
+fieldset {
+  border: none;
+}
+
+select,
+input,
+textarea,
+input[type="checkbox"] + label::before,
+input[type="radio"] + label::before {
+  border-color: #2a7789;
+  border-radius: 15px;
 }
