@@ -7,6 +7,29 @@ html {
   max-width: 200px;
 }
 
+.logo:hover {
+  /* visibility: hidden; */
+  /* background-image: url("../images/research-logo-hover.png"); */
+  /* max-width: 200px; */
+}
+
+/* .nav {
+  display: none;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-check:checked ~ .nav-label {
+  background-color: grey;
+} */
+
 nav a {
   font-family: Merriweather, serif;
   text-decoration: none;
@@ -30,7 +53,7 @@ footer a:hover {
 .register a {
   border: solid #000 2px;
   border-radius: 30px;
-  padding: .35em;
+  padding: .35em 1em;
 }
 
 .register a:hover {
@@ -88,6 +111,10 @@ h2 {
   border-color: #2a7789;
 }
 
+.customers {
+  max-width: 300px;
+}
+
 .sign-up {
   background-color: #fff;
 }
@@ -109,7 +136,8 @@ input[type="radio"] + label::before {
   border-radius: 15px;
 }
 
-.sign-up .btn {
+.sign-up .btn a {
+  text-decoration: none;
   color: #000;
 }
 
@@ -117,6 +145,61 @@ input[type="radio"] + label::before {
   color: #fff;
 }
 
-footer .btn {
+footer .btn a {
   border: none;
+  font-family: Lato, sans-serif;
+}
+
+footer .btn a:hover {
+  background-color: #2a7789;
+  color: #fff;
+}
+
+.carousel-items > div {
+  display: none;
+}
+
+#first-offer-control:checked ~ .carousel-inner #first-offer,
+#second-offer-control:checked ~ .carousel-inner #second-offer,
+#third-offer-control:checked ~ .carousel-inner #third-offer {
+  display: block;
+}
+
+.carousel-btn {
+  border: 4px solid #fff;
+  border-radius: 50%;
+}
+
+#first-offer-control:checked ~ .carousel-inner [for="first-offer-control"],
+#second-offer-control:checked ~ .carousel-inner [for="second-offer-control"],
+#third-offer-control:checked ~ .carousel-inner [for="third-offer-control"] {
+  background-color: #fff;
+}
+
+.offers {
+  visibility: hidden;
+}
+
+.carousel {
+  visibility: visible;
+}
+
+/* .offers img {
+  max-width: 300px;
+} */
+
+.customers img {
+  max-width: 300px;
+}
+
+@media only screen and (min-width: 48em) {
+
+  .carousel {
+    visibility: hidden;
+  }
+
+  .offers {
+    visibility: visible;
+  }
+
 }
