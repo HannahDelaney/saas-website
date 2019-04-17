@@ -223,9 +223,13 @@ footer .btn:hover {
 }
 
 .quote {
-  padding: 0 1em;
-  border: 7px solid #ffea00:
+  border: 7px solid #ffea00;
   border-radius: 10px;
+  text-align: center;
+}
+
+.register-form {
+  background-color: #fff;
 }
 
 @media only screen and (min-width: 48em) {
