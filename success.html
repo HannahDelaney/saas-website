@@ -13,15 +13,20 @@
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
+  <ul class="skip-links">
+    <li><a href="#nav">Jump to navigation</a></li>
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#footer">Jump to footer</a></li>
+  </ul>
   <header class="grid grid-middle gutter-1-2 wrapper">
-    <div class="unit xs-1 m-1-3">
-      <a href="index.html"><img class="logo push-1-2 pad-t" src="images/research-logo.png" alt=""></a>
+    <div class="unit xs-1 m-1-3 logo">
+      <a href="index.html"><img class=" push-1-2 pad-t" src="images/research-logo.png" alt=""></a>
     </div>
-    <nav class="unit mega xs-1 m-2-3 pad-t text-right nav">
+    <nav class="unit mega xs-1 m-2-3 pad-t nav" role="nav" id="nav" tabindex="0">
       <ul class="push list-group-inline">
-        <li class="solutions gutter-1-2 kilo"><a href="solutions.html">Solutions</a></li>
-        <li class="prices gutter-1-2 kilo"><a href="prices.html">Prices</a></li>
-        <li class="register gutter-1-2 kilo"><a href="register.html">Try it Free</a></li>
+        <li class="solutions gutter-1-2 milli"><a href="solutions.html">Solutions</a></li>
+        <li class="prices gutter-1-2 milli"><a href="prices.html">Prices</a></li>
+        <li class="register gutter-1-2 milli"><a href="register.html">Try it Free</a></li>
       </ul>
     </nav>
   </header>
@@ -40,20 +45,20 @@
       </div>
     </div>
   </section>
-  <main class="final-step pad-t-2 pad-b-2 text-center">
+  <main class="final-step pad-t-2 pad-b-2 text-center" role="main" id="main" tabindex="0">
     <div class="max-length">
     <h2>One final step: check your email to verify and complete your registration with us, then login through your email to begin working!</h2>
     </div>
   </main>
-  <footer>
+  <footer role="footer" id="footer" tabindex="0">
     <p class="text-center pad-t-2">See why we are trusted over competitors.</p>
     <div class="center-text push-1-2">
       <a href="solutions.html"><button class="btn gutter-2 pad-t-1-2 pad-b-1-2 bold">Learn More</button></a>
     </div>
     <ul class="push list-group-inline text-center pad-t-2">
-      <li class="solutions gutter-1-2"><a href="solutions.html">Solutions</a></li>
-      <li class="prices gutter-1-2"><a href="prices.html">Prices</a></li>
-      <li class="register gutter-1-2"><a href="register.html">Try it Free</a></li>
+      <li class="solutions gutter-1-2 milli"><a href="solutions.html">Solutions</a></li>
+      <li class="prices gutter-1-2 milli"><a href="prices.html">Prices</a></li>
+      <li class="register gutter-1-2 milli"><a href="register.html">Try it Free</a></li>
     </ul>
   </footer>
 </body>

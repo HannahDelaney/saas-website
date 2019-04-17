@@ -3,32 +3,26 @@ html {
   font-family: Lato, sans-serif;
 }
 
-.logo {
-  max-width: 200px;
-}
-
-.logo:hover {
-  /* visibility: hidden; */
-  /* background-image: url("../images/research-logo-hover.png"); */
-  /* max-width: 200px; */
-}
-
-/* .nav {
-  display: none;
-}
-
-.nav-check:checked ~ .nav {
-  display: block;
-}
-
-.nav-check {
+.skip-links a {
   position: absolute;
   top: -3em;
 }
 
-.nav-check:checked ~ .nav-label {
-  background-color: grey;
-} */
+.skip-links a:focus {
+  top: 0;
+}
+
+header img {
+  max-width: 200px;
+}
+
+.logo {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
 
 nav a {
   font-family: Merriweather, serif;
@@ -137,7 +131,7 @@ input[type="radio"] + label::before {
   color: #fff;
 }
 
-.carousel-items > div {
+/* .carousel-items > div {
   display: none;
 }
 
@@ -164,11 +158,6 @@ input[type="radio"] + label::before {
 
 .carousel {
   visibility: visible;
-}
-
-/* .offers img {
-  max-width: 300px;
-  align-items: center;
 } */
 
 .customers img {
@@ -247,6 +236,14 @@ footer .btn:hover {
 }
 
 @media only screen and (min-width: 48em) {
+
+  .logo {
+    text-align: left;
+  }
+
+  nav {
+    text-align: right;
+  }
 
   .let-us-help {
     padding-bottom: 5em;
