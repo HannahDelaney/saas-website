@@ -67,10 +67,6 @@ h1 {
   margin-left: .5em;
 }
 
-.banner-img img {
-  width: 100%;
-}
-
 .banner-words {
   background-color: #2a7789;
 }
@@ -119,10 +115,6 @@ h2 {
   background-color: #fff;
 }
 
-.sign-up img {
-  width: 100%;
-}
-
 fieldset {
   border: none;
 }
@@ -136,22 +128,12 @@ input[type="radio"] + label::before {
   border-radius: 15px;
 }
 
-.sign-up .btn a {
+.sign-up .btn {
   text-decoration: none;
   color: #000;
 }
 
 .sign-up .btn:hover {
-  color: #fff;
-}
-
-footer .btn a {
-  border: none;
-  font-family: Lato, sans-serif;
-}
-
-footer .btn a:hover {
-  background-color: #2a7789;
   color: #fff;
 }
 
@@ -186,13 +168,75 @@ footer .btn a:hover {
 
 /* .offers img {
   max-width: 300px;
+  align-items: center;
 } */
 
 .customers img {
   max-width: 300px;
 }
 
+h3 {
+  font-family: Lato, sans-serif;
+  color: #2a7789;
+}
+
+.let-us-help {
+  background-color: #fff;
+  padding-bottom: 10em;
+}
+
+.let-us-help img {
+  height: 60%;
+}
+
+footer .btn {
+  border: none;
+  font-family: Lato, sans-serif;
+}
+
+footer .btn:hover {
+  background-color: #2a7789;
+  color: #fff;
+}
+
+.link-card {
+  background-color: #fff;
+  border: 3px solid #000;
+  border-radius: 10px;
+  max-width: 30%;
+  margin: .5em;
+  text-align: center;
+}
+
+.link-card-header {
+  background-color: #2a7789;
+  color: #fff;
+  padding-bottom: .5em;
+}
+
+.link-small {
+  padding: 0 2.25em;
+}
+
+.plans {
+  background-color: #fff;
+}
+
+.quote {
+  padding: 0 1em;
+  border: 7px solid #ffea00:
+  border-radius: 10px;
+}
+
 @media only screen and (min-width: 48em) {
+
+  .let-us-help {
+    padding-bottom: 5em;
+  }
+
+  .let-us-help img {
+    height: 80%;
+  }
 
   .carousel {
     visibility: hidden;
