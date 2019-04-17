@@ -203,15 +203,17 @@ footer .btn:hover {
   background-color: #fff;
   border: 3px solid #000;
   border-radius: 10px;
-  max-width: 30%;
-  margin: .5em;
   text-align: center;
 }
 
 .link-card-header {
+  border-bottom: 3px solid #000;
+  margin-bottom: 1.5em;
+}
+
+.link-card-header-highlight {
   background-color: #2a7789;
   color: #fff;
-  padding-bottom: .5em;
 }
 
 .link-small {
@@ -230,6 +232,18 @@ footer .btn:hover {
 
 .register-form {
   background-color: #fff;
+}
+
+.final-step {
+  background-color: #fff;
+}
+
+.y {
+  color: green;
+}
+
+.n {
+  color: red;
 }
 
 @media only screen and (min-width: 48em) {
