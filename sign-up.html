@@ -18,33 +18,41 @@
     <li><a href="#main">Jump to main content</a></li>
     <li><a href="#footer">Jump to footer</a></li>
   </ul>
-  <header class="grid grid-middle gutter-1-2 wrapper" role="banner">
-    <div class="unit xs-1 m-1-3">
-      <a href="index.html"><img class="logo push-1-2 pad-t" src="images/research-logo.png" alt=""></a>
-    </div>
-    <nav class="unit mega xs-1 m-2-3 pad-t nav" id="nav" role="navigation" tabindex="0">
-      <ul class="push list-group-inline">
-        <li class="solutions gutter-1-2 milli"><a href="tour.html">Solutions</a></li>
-        <li class="prices gutter-1-2 milli"><a href="pricing.html">Prices</a></li>
-        <li class="register gutter-1-2 milli"><a href="sign-up.html">Try it Free</a></li>
-      </ul>
-    </nav>
-  </header>
-  <section class="banner pad-t pad-b-0">
-    <div class="banner-img grid wrapper">
-      <div class="unit xs-1 m-1-2 pad-t-2">
-        <h1 class="not-bold zetta push-0">Nice to meet you!<br>Ready to join?</h1>
+  <div>
+    <header role="banner">
+      <div>
+        <div class="wrapper grid grid-middle">
+          <div class="unit xs-1 m-1-3">
+            <a href="index.html" aria-label="Research logo: the word research with a circular arrow"><img class="logo push-1-2 pad-t" src="images/research-logo.png" alt=""></a>
+          </div>
+          <nav class="unit mega xs-1 m-2-3 pad-t nav" id="nav" role="navigation" tabindex="0">
+            <ul class="push list-group-inline">
+              <li class="solutions gutter-1-2 milli"><a href="tour.html">Solutions</a></li>
+              <li class="prices gutter-1-2 milli"><a href="pricing.html">Prices</a></li>
+              <li class="register gutter-1-2 milli"><a href="sign-up.html">Try it Free</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <section class="banner pad-t">
+            <div class="banner-img grid wrapper">
+              <div class="unit xs-1 m-1-2 pad-t-2">
+                <h1 class="not-bold zetta push-0">Nice to meet you!<br>Ready to join?</h1>
+              </div>
+              <div class="push-0 unit xs-1 m-1-2 embed embed-3by1">
+                <img class="img-flex embed-item" src="images/thumbs-up-register.png" alt="">
+              </div>
+            </div>
+            <div class="banner-words unit xs-1">
+              <div class="text-center pad-t-2 pad-b-2 max-length">
+                <p>Ready to try our services? With our free trial period, you get the chance to experience how we find, track and help you learn from users — before having to send any money.</p>
+              </div>
+            </div>
+          </section>
+        </div>
       </div>
-      <div class="push-0 unit xs-1 m-1-2 embed embed-3by1">
-        <img class="img-flex embed-item" src="images/thumbs-up-register.png" alt="">
-      </div>
-    </div>
-    <div class="banner-words unit xs-1">
-      <div class="text-center pad-t-2 pad-b-2 wrapper">
-        <p>Ready to try our services? With our free trial period, you get the chance to experience how we find, track and help you learn from users — before having to send any money.</p>
-      </div>
-    </div>
-  </section>
+    </header>
+  </div>
   <main class="register-form pad-t-2" id="main" role="main" tabindex="0">
     <h2>Sign up below to get started!</h2>
     <form class="push-0 unit xs-1 gutter wrapper" method="POST" action="https://formspree.io/brow1234@algonquinlive.com">
@@ -117,6 +125,10 @@
         <button class="btn mega push-2" type="submit">Start my Free Trial</button>
       </div>
     </form>
+    <h2>Already a member?</h2>
+    <div class="text-center">
+      <a class="btn mega push-2" href="sign-in.html">Sign in</a>
+    </div>
   </main>
   <footer id="footer" role="contentinfo" tabindex="0">
     <p class="text-center pad-t-2">See why we are trusted over competitors.</p>
